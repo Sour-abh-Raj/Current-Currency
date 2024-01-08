@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Global Styles */
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Body Styles */
+main {
+  padding: 20px;
+}
+
+select {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-line {
+  margin-bottom: 10px;
+}
+
+.footer-line img {
+  height: 20px;
+  width: auto;
+}
+
+#base-currency {
+  cursor: pointer;
+  color: #fff;
+}
+
+#base-currency:hover {
+  color: #c0c0c0;
+}
+
+#error {
+  display: block;
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.graph-container {
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+.graph {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    max-width: 1000px;
+  }
+}
